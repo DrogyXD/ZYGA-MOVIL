@@ -2,6 +2,5 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-
-    <color name="naranja_zyga">#FF6F00</color>
+    <color name="orange">#F57C00</color>
 </resources>
