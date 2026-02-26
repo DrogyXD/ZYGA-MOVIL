@@ -35,8 +35,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="24dp"
-        android:layout_marginBottom="60dp">  <!-- IMPORTANTE: espacio para el toolbar -->
-
+        android:layout_marginBottom="60dp">
         <!-- Espacio superior -->
         <Space
             android:layout_width="match_parent"
