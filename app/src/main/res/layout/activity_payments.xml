@@ -80,7 +80,7 @@
                         android:layout_height="wrap_content"
                         android:text="Depositar"
                         android:textColor="@android:color/white"
-                        app:backgroundTint="@color/naranja_zyga"
+                        app:backgroundTint="@color/orange"
                         app:cornerRadius="50dp"/>
 
                 </LinearLayout>
@@ -327,7 +327,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Realizar suscripción"
-                    app:backgroundTint="@color/naranja_zyga"
+                    app:backgroundTint="@color/orange"
                     android:textColor="@android:color/white"
                     app:cornerRadius="50dp"/>
             </LinearLayout>
