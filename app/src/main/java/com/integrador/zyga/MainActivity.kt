@@ -15,12 +15,11 @@ class MainActivity : AppCompatActivity() {
 
         val navHostFragment =
             supportFragmentManager.findFragmentById(R.id.nav_host) as NavHostFragment
+
         val navController = navHostFragment.navController
 
-        val bottomNav = findViewById<BottomNavigationView>(R.id.bottom_nav) // <-- aquí pon tu id real
-        bottomNav.setupWithNavController(navController)
+        val bottomNav = findViewById<BottomNavigationView>(R.id.bottom_nav)
 
-        // Para que "Inicio" quede seleccionado al abrir
-        bottomNav.selectedItemId = R.id.nav_home
+        bottomNav.setupWithNavController(navController)
     }
 }
