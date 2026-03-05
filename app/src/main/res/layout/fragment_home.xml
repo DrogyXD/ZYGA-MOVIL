@@ -93,6 +93,7 @@
                     android:paddingStart="14dp"
                     android:paddingEnd="14dp"
                     android:paddingTop="12dp"
+                    android:background="@color/white"
                     android:paddingBottom="12dp">
 
                     <LinearLayout
@@ -187,7 +188,7 @@
                             android:layout_marginStart="8dp"
                             app:backgroundTint="@color/orange"
                             app:fabSize="mini"
-                            app:srcCompat="@drawable/ic_add"
+                            app:srcCompat="@drawable/ic_expand"
                             app:tint="@android:color/white" />
                     </LinearLayout>
 
@@ -294,6 +295,7 @@
                 android:layout_marginTop="10dp"
                 app:cardCornerRadius="22dp"
                 app:cardElevation="2dp"
+                android:background="@color/white"
                 app:cardUseCompatPadding="false">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -302,6 +304,7 @@
                     android:paddingStart="12dp"
                     android:paddingEnd="12dp"
                     android:paddingTop="12dp"
+                    android:background="@color/white"
                     android:paddingBottom="12dp">
 
                     <TextView
@@ -399,6 +402,7 @@
                             android:paddingStart="12dp"
                             android:paddingEnd="12dp"
                             android:paddingTop="22dp"
+                            android:background="@color/white"
                             android:paddingBottom="12dp">
 
                             <ImageView
@@ -463,6 +467,7 @@
                             android:paddingStart="12dp"
                             android:paddingEnd="12dp"
                             android:paddingTop="22dp"
+                            android:background="@color/white"
                             android:paddingBottom="12dp">
 
                             <ImageView
@@ -526,6 +531,7 @@
                             android:paddingStart="12dp"
                             android:paddingEnd="12dp"
                             android:paddingTop="22dp"
+                            android:background="@color/white"
                             android:paddingBottom="12dp">
 
                             <ImageView
