@@ -49,11 +49,16 @@ class HomeFragment : Fragment() {
             isExpanded = !isExpanded
             moreOptions.visibility = if (isExpanded) View.VISIBLE else View.GONE
 
-            // Opcional: girar el + para simular "X"
             btnMore.animate()
-                .rotation(if (isExpanded) 45f else 0f)
+                .rotation(if (isExpanded) 180f else 0f)
                 .setDuration(180)
                 .start()
+
+            btnMore.setImageResource(
+                if (isExpanded) R.drawable.ic_expand
+                else R.drawable.ic_expand
+            )
+
         }
 
         // Opcional: acciones al tocar cada opción
